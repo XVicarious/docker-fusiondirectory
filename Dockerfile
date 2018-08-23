@@ -2,7 +2,7 @@ FROM nginx:latest
 LABEL maintainer="xvicarious" \
       version="0.2.666"
 
-ENV FUSIONDIRECTORY_VERSION=1.2-1
+ENV FUSIONDIRECTORY_VERSION=1.2.1-1
 
 RUN rm -f /etc/apt/sources.list.d/* \
  && apt-get update \
